@@ -25,7 +25,7 @@ fi
 # Update system
 
 log "Install dependencies..."
-apt install -y curl wget git openssl ufw
+sudo apt install -y curl wget git openssl ufw
 
 # Download Hysteria
 Log "Downloading Hysteria..."
