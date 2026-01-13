@@ -51,6 +51,7 @@ update_system() {
     success "System updated"
 }
 
+<<<<<<< HEAD
 # Install dependencies
 install_deps() {
     log "Installing dependencies..."
@@ -76,6 +77,10 @@ install_deps() {
     
     success "Dependencies installed"
 }
+=======
+log "Install dependencies..."
+sudo apt install -y curl wget git openssl ufw
+>>>>>>> 446b9634d4fc654d4fce5193b10531f235128f80
 
 # Download Hysteria
 install_hysteria() {
