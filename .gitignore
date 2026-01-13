@@ -1,0 +1,29 @@
+# System files
+.DS_store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keys and secrets
+*.key
+*.pem
+*.cert
+.env
+secrets/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
